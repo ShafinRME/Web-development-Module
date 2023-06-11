@@ -6,9 +6,10 @@ body{
     display: flex;
     padding-left: 40px;
     background-image: url(bgimages/first-section.jpg);
+    background-repeat: no-repeat;
     color: aliceblue;
     font-size: 20px;
-    height: 550px;
+    height: 550px; 
 }
 .first-section h1{
     font-size: 50px;
@@ -30,4 +31,31 @@ body{
     /* background-color: yellowgreen; */
     background-image: linear-gradient(yellowgreen, green);
     color: blanchedalmond;
+}
+
+.second-section{
+    display: flex;
+    padding-left: 40px;
+    background-image: url(bgimages/second-section.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.second-section h1{
+    font-size: 50px;
+}
+.s-left img{
+    width: 50%;
+    margin-left: 80px;
+}
+.s-left{
+    width: 50%;
+    
+}
+.s-right{
+    width: 50%;
+    margin-top: 200px;
+    padding-right: 60px;
 }
