@@ -1,9 +1,33 @@
 body{
     font-family: 'Abel', sans-serif;
+    margin: 0;
 }
 .first-section{
     display: flex;
+    padding-left: 40px;
+    background-image: url(bgimages/first-section.jpg);
+    color: aliceblue;
+    font-size: 20px;
+    height: 550px;
+}
+.first-section h1{
+    font-size: 50px;
+}
+.f-left{
+    width: 50%;
+}
+.f-right{
+    width: 50%;
+}
+.text-part{
+    color: yellow;
 }
 .link-button{
     text-decoration: none;
+    /* border: 5px solid yellowgreen; */
+    border-radius: 10%;
+    padding:10px  15px;
+    /* background-color: yellowgreen; */
+    background-image: linear-gradient(yellowgreen, green);
+    color: blanchedalmond;
 }
