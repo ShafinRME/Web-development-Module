@@ -71,10 +71,25 @@ body{
 }
 .third-section1{
     display: flex;
+    
+    
+}
+.third-section1 h4{
+    color: darkgoldenrod;
+}
+.third-section1 div{
+    box-shadow: 5px 5px 5px 5px cyan;
+    height: 400px;
+    width: 500px;
+    padding-left: 50px;
 }
 .t-left{
     width: 50%;
+    margin-left: 50px;
+    border-left: 5px solid red;
 }
 .t-right{
     width: 50%;
+    margin-left: 120px;
+    border-left: 5px solid blue
 }
